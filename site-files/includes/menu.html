@@ -1,0 +1,80 @@
+	<div id="menu-button-wrapper">
+		<div id="menu-button">
+			<span></span>
+		</div>
+	</div>
+
+	<div id="menu">
+		<div class="grid">
+			<div class="col" id="one">
+				<a href="/"><span>Портфолио</span></a><br><br>
+				<p><a href="/">Сайты</a></p>
+				<p><a href="/">Вёрстка</a></p>
+				<p><a href="/">Дизайн</a></p>
+			</div>
+			<div class="col" id="two">
+				<a href="/"><span>Горячее</span></a><br><br>
+				Интенсив по&nbsp;индизайну
+				&laquo;<a href="/indesign">Верстаем быстро</a>&raquo;
+				Уфа,&nbsp;23&mdash;24&nbsp;апреля
+			</div>
+			<div class="col" id="three">
+				<a href="/blog/"><span>Заметки</span></a><br><br>
+				<p><a href="/blog/data-merge">Объединение данных в&nbsp;индизайне</a></p>
+				<p><a href="/">Автоматическая вёрстка оглавления</a></p>
+			</div>
+			<div class="col" id="me">
+				<img src="/site-files/me-pixel.gif">
+				<div>
+					Привет!<br>Меня зовут <a href="/">Марат Бакиров</a>
+				</div>
+			</div>
+			<div class="col" id="me-short">
+				<img src="/site-files/me-pixel-short.png"><br>
+				<a href="/">Обо мне</a>
+			</div>
+			<div class="clean"></div>
+		</div>
+	</div>
+
+	<div id="menu-close-area"></div>
+
+	<!-- Кнопка меню -->
+	<script type="text/javascript">
+		$('#menu-button span').click(function() {
+   			$('#menu').toggleClass('show');
+   			$('#menu-close-area').toggleClass('show');
+		});
+		$('#menu-close-area').click(function() {
+   			$('#menu').toggleClass('show');
+   			$('#menu-close-area').toggleClass('show');
+		});
+	</script>
+
+	<!-- Меню на кнопке W -->
+	<script type="text/javascript">
+		$(document).keyup(function(e) {
+	    	if(e.keyCode == 87) {
+	    		$('#menu').toggleClass('show');
+	    		$('#menu-close-area').toggleClass('show');
+	    	};
+		});
+		
+		$(document).keyup(function(e) {
+	    	if(e.keyCode == 27) {
+	    		$('#menu').removeClass('show');
+	    		$('#menu-close-area').removeClass('show');
+	    	};
+		});
+	</script>
+
+	<!-- Цвет кнопки меню -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+       		$(window).scroll(function(){
+				var bo = $("body").scrollTop();
+				if ( bo > 560 ) {$("#menu-button span").addClass('bg');}
+				else {$("#menu-button span").removeClass('bg');}
+       		 })
+    	})
+	</script>
