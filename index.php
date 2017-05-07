@@ -1,89 +1,47 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>Портфолио Марата Бакирова</title>
+	<title>Леттеринг | Портфолио Екатерины Бакировой</title>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/site-files/main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Фэнсибокс -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 </head>
 <body>
-
-	<a name="top"></a>
 
 	<!-- Меню -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 
-	<div id="black-bg"></div>
-	<div class="grid" id="header">
-		<?php
-			$quotes[] =	'<span>&mdash;&nbsp;А&nbsp;есть портфолио?</span>
-						<span>&mdash;&nbsp;Да, конечно:</span>';
-			$quotes[] = '<span>&mdash;&nbsp;Можно портфолио посмотреть?</span>
-						<span>&mdash;&nbsp;Вот, смотрите:</span>';
-			$quotes[] = '<span>&mdash;&nbsp;А есть какое-то портфолио?</span>
-						<span>&mdash;&nbsp;Да, вот:</span>';
-			$quotes[] = '<span>&mdash;&nbsp;Где можно ваши работы посмотреть?</span>
-						<span>&mdash;&nbsp;Здесь:</span>';
-			$quotes[] = '<span>&mdash;&nbsp;Портфолио покажете?</span>
-						<span>&mdash;&nbsp;Да, пожалуйста:</span>';
-			srand ((double) microtime() * 1000000);
-		    $random_number = rand(0,count($quotes)-1);
-			echo ($quotes[$random_number]);  
-		?>
+	<div class="grid-wide" id="all-logos">
+		<a data-fancybox="gallery" href="/i/l/lettering-01.png"><img src="/i/l/t/lettering-01.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-02.png"><img src="/i/l/t/lettering-02.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-03.png"><img src="/i/l/t/lettering-03.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-04.png"><img src="/i/l/t/lettering-04.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-05.png"><img src="/i/l/t/lettering-05.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-06.png"><img src="/i/l/t/lettering-06.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-07.png"><img src="/i/l/t/lettering-07.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-08.png"><img src="/i/l/t/lettering-08.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-09.png"><img src="/i/l/t/lettering-09.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-10.png"><img src="/i/l/t/lettering-10.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-11.png"><img src="/i/l/t/lettering-11.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-12.png"><img src="/i/l/t/lettering-12.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-13.png"><img src="/i/l/t/lettering-13.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-14.png"><img src="/i/l/t/lettering-14.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-15.png"><img src="/i/l/t/lettering-15.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-16.png"><img src="/i/l/t/lettering-16.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-17.png"><img src="/i/l/t/lettering-17.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-18.png"><img src="/i/l/t/lettering-18.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-19.png"><img src="/i/l/t/lettering-19.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-20.png"><img src="/i/l/t/lettering-20.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-21.png"><img src="/i/l/t/lettering-21.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-22.png"><img src="/i/l/t/lettering-22.png"></a>
+		<a data-fancybox="gallery" href="/i/l/lettering-23.png"><img src="/i/l/t/lettering-23.png"></a>
 	</div>
 
-	<!-- Абдульманов -->
-	<p class="white">
-	Сайт для ведущего Азамата Абдульманова<br>
-	Дата релиза: 10.03.2017 г.<br>
-	<a href="https://abdulmanov.com/">www.abdulmanov.com</a>
-	</p>
-	<img src="/i/abdulmanov-1.png" class="grid-i">
-	<img src="/i/abdulmanov-2.png" class="grid-i">
-	<img src="/i/abdulmanov-3.png" class="grid-i">
-	<!-- EOF Абдульманов -->
 
-	<!-- Инфобот рассылки -->
-	<p>
-	Шаблоны почтовых рассылок сервиса «Инфобот»<br>
-	Дата релиза: 05.03.2017 г.
-	</p>
-	<div class="grid">
-		<img src="/i/infobot-mail-1.png" class="fleft shadow" width="610px">
-		<img src="/i/infobot-mail-2.png" class="fright shadow" width="350px"><br><br>
-		<img src="/i/infobot-mail-3.png" class="fright shadow" width="350px">
-		<img src="/i/infobot-mail-4.png" class="fright shadow" width="350px">
-		<div class="clean"></div>
-	</div>
-	<!-- EOF Инфобот рассылки -->
-
-	<!-- Делосипед -->
-	<p>
-	Дизайн сайта веломастерской «Делосипед»<br>
-	Дата разработки: 05.05.2016 г.<br>
-	</p>
-	<div class="grid">
-		<img src="/i/delosiped.jpg" class="grid-i">
-	</div>
-	<!-- EOF Делосипед -->
-
-	<!-- Инфобот попарт -->
-	<p>
-	Постер для сервиса «Инфобот»<br>
-	Дата разработки: 20.12.2016 г.
-	</p>
-	<div class="grid">
-		<img src="/i/infobot-popart.jpg" class="shadow">
-	</div>
-	<!-- EOF Инфобот попарт -->
-
-	<!-- Футер -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
-	
-	<!-- Метрика -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/metrika.html'); ?>
 </body>
 </html>
