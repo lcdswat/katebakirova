@@ -31,7 +31,7 @@ body {
 
 /*Страница леттеринг*/
 #all-logos {
-	min-width: 750px;
+	min-width: 500px;
 	text-align: center;
 	font-size: 0px;
 }
@@ -46,6 +46,11 @@ body {
 	margin: 0; padding: 0;
 }
 
+#logos img {
+	display: block;
+	margin: 0 auto 0 auto;
+	padding: 100px 0 0 0;
+}
 /*EOF Страница леттеринг*/
 
 /*Меню*/
