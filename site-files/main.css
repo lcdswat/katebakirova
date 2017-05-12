@@ -169,7 +169,7 @@ body {
 #menu #me img {
 	display: block;
 	float: left;
-	margin: -20px 30px 0 0;
+	margin: -20px 15px 0 0;
 }
 
 #menu #me div {
@@ -205,3 +205,11 @@ body {
 	#me-short {display: block !important;}
 }
 /*EOF меню*/
+
+/*Футер*/
+#footer {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto 0 auto;
+}
+/*EOF Футер*/

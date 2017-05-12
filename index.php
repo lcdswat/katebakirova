@@ -47,11 +47,73 @@
 
 	<div id="logos" class="center">
 		<img src="/i/l/lettering-01.png">
-		Подпись
+		Клуб неравнодушных: титры для телепередачи
+
 		<img src="/i/l/lettering-02.png">
-		Подпись
+		Chewsday: практика 
+
 		<img src="/i/l/lettering-03.png">
-		Подпись
+		Винишко: практика 
+
+		<img src="/i/l/lettering-04.png">
+		Lettering: практика 
+
+		<img src="/i/l/lettering-05.png">
+		Welcome: леттеринг для стока 
+
+		<img src="/i/l/lettering-06.png">
+		Свой уголок: заголовок для сайта 
+
+		<img src="/i/l/lettering-07.png">
+		Сочный пучок: леттеринг для упаковки 
+
+		<img src="/i/l/lettering-08.png">
+		Fitnessguides: логотип онлайн-сервиса 
+
+		<img src="/i/l/lettering-09.png">
+		Felicidad: практика 
+
+		<img src="/i/l/lettering-10.png">
+		Fronazza: лого для бытовой и промышленной<br>кухонной техники 
+
+		<img src="/i/l/lettering-11.png">
+		Коллекционер: лого для личного проекта 
+
+		<img src="/i/l/lettering-12.png">
+		Еда: практика 
+
+		<img src="/i/l/lettering-13.png">
+		Corcovado: практика 
+
+		<img src="/i/l/lettering-14.png">
+		Бульон: лого для ресторана (продаётся) 
+
+		<img src="/i/l/lettering-15.png">
+		Squash: леттеринг для рекламы 
+
+		<img src="/i/l/lettering-16.png">
+		My love: конкурсная работа 
+
+		<img src="/i/l/lettering-17.png">
+		Акульчев: предложение редизайна (отклонено) 
+
+		<img src="/i/l/lettering-18.png">
+		Persona: практика 
+
+		<img src="/i/l/lettering-19.png">
+		Хлебный день: лого для хлебозавода 
+
+		<img src="/i/l/lettering-20.png">
+		Chill Out: лого мужского клуба 
+
+		<img src="/i/l/lettering-21.png">
+		Provence: лого для свадебных организаторов 
+
+		<img src="/i/l/lettering-22.png">
+		Типографика от Рафика: практика 
+
+		<img src="/i/l/lettering-23.png">
+		Speak low if you speak love:<br>цитата Уильяма Шекспира
 	</div>
 
 	<!-- Настройки фэнсибокса -->
@@ -65,6 +127,9 @@
 			slideShow : false
 		});
 	</script>
+
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer-kate.html'); ?>
+	<?php include('/var/www/u0320344/data/www/kate.marat-bakirov.ru/site-files/includes/footer-kate.html'); ?>
 
 </body>
 </html>
