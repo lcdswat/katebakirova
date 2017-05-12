@@ -14,7 +14,8 @@
 <body>
 
 	<!-- Меню -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu-kate.html'); ?>
+	<?php include('/var/www/u0320344/data/www/kate.marat-bakirov.ru/site-files/includes/menu-kate.html'); ?>
 
 	<!-- Галлерея логотипов -->
 	<div class="grid-wide" id="all-logos">
